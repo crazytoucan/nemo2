@@ -2,5 +2,8 @@
   "private": true,
   "workspaces": [
     "ios"
-  ]
+  ],
+  "devDependencies": {
+    "expo-cli": "^4.12.1"
+  }
 }
