@@ -1,9 +1,14 @@
 {
   "private": true,
+  "scripts": {
+    "echo": "echo ios/!node_modules/{**/*,*}.{ts,tsx}",
+    "fix": "prettier --write ios"
+  },
   "workspaces": [
     "ios"
   ],
   "devDependencies": {
-    "expo-cli": "^4.12.1"
+    "expo-cli": "^4.12.1",
+    "prettier": "^2.4.1"
   }
 }
